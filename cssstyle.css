@@ -1,0 +1,77 @@
+h1
+{
+	color: white;
+	font-size: 1.3em;
+	font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+	font-style: cursiva
+	text-align: right;
+	border: 3px black;
+	border-radius: 10px;
+	width: 50 %;
+}
+body
+{
+	background-image: url("fondo.jpg");
+	background-attachment: fixed; 
+}	
+p
+{
+	color: white;
+	font-size: 0.8;
+	/*box-shadow: 6px 6px 0px white;*/	
+	text-shadow: 2px 2px 4px white;
+	width: 400px;
+	height: 250px;
+	overflow: auto;
+    border: 1px solid white;
+    text-align: justify;
+    padding: 12px; /* Margen interior de 12px */
+    margin: auto; /* Podemos pedir que el bloque se centre con el auto */
+    margin-bottom: 20px;
+    word-wrap: break-word;
+    float: right;
+}
+a /* Enlaces por defecto (cuando no se pasa por encima) */
+{
+   text-decoration: none;
+   color: red;
+   font-style: italic;
+   display: block;
+}
+
+a:hover /* Apariencia de los enlaces cuando se pasa por encima */
+{
+   text-decoration: underline;
+   color: green;
+}
+
+p:hover /* Cuando señalas un párrafo */
+{
+
+}
+
+a:active /* Cuando el visitante hace clic en el enlace */
+{
+    background-color: #FFCC66;
+}
+
+a:focus /* Cuando el visitante selecciona el enlace */
+{
+    background-color: #FFCC66;
+}
+
+a:visited /* Cuando el visitante ya ha visto la página correspondiente */
+{
+    color: #AAA; /* Aplicar un color gris */
+}
+
+nav
+{
+    /*float: left;*/
+    display: inline-block;
+    width: 250px;
+    border: 1px solid Black;
+    vertical-align: h;
+    position: fixed;
+    float: right;
+}
